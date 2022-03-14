@@ -1,0 +1,35 @@
+{
+  "name": "fastcode/crud-bundle",
+  "type": "symfony-bundle",
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Miguel Malavé",
+      "email": "mmalave.fastcode@gmail.com",
+      "homepage": ""
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "require-dev": {
+  },
+  "conflict": {
+  },
+  "autoload": {
+    "psr-4": {
+      "FastCode\\Bundle\\CrudBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FastCode\\Bundle\\CrudBundle\\Tests\\": "tests/"
+    }
+  },
+  "support": {
+    "docs": ""
+  }
+}
